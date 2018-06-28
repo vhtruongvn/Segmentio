@@ -168,7 +168,7 @@ public enum SegmentioStyle: String {
     }
 
     public var layoutMargins: CGFloat {
-        let defaultLayoutMargins: CGFloat = 1.0
+        let defaultLayoutMargins: CGFloat = 8.0
         switch self {
         case .onlyLabel, .imageAfterLabel, .imageBeforeLabel, .imageOverLabel, .imageUnderLabel:
             return 4 * defaultLayoutMargins
